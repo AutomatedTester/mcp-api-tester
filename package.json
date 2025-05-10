@@ -1,0 +1,33 @@
+{
+  "name": "mcp-api-tester",
+  "version": "1.0.0",
+  "description": "A MCP server for doing API calls",
+  "keywords": [
+    "mcp",
+    "AI",
+    "server",
+    "API"
+  ],
+  "homepage": "https://github.com/AutomatedTester/mcp-api-tester#readme",
+  "bugs": {
+    "url": "https://github.com/AutomatedTester/mcp-api-tester/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AutomatedTester/mcp-api-tester.git"
+  },
+  "license": "Apache-2.0",
+  "author": "David Burns",
+  "type": "module",
+  "main": "src/lib/server.js",
+  "bin": {
+    "mcp-api-tester": "./src/lib/server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "zod": "^3.24.4"
+  }
+}
