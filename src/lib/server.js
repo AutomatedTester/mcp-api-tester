@@ -43,6 +43,7 @@ server.tool(
         return {
             content: [
                 { type: "text", text: `status: ${response.status}` },
+                { type: "text", text: `headers: ${JSON.stringify(Object.fromEntries(response.headers))}` },
                 { type: "text", text: `body: ${await response.text()}` }
             ]
         };
@@ -66,6 +67,7 @@ server.tool(
         return {
             content: [
                 { type: "text", text: `status: ${response.status}` },
+                { type: "text", text: `headers: ${JSON.stringify(Object.fromEntries(response.headers))}` },
                 { type: "text", text: `body: ${await response.text()}` }
             ]
         };
@@ -89,6 +91,7 @@ server.tool(
         return {
             content: [
                 { type: "text", text: `status: ${response.status}` },
+                { type: "text", text: `headers: ${JSON.stringify(Object.fromEntries(response.headers))}` },
                 { type: "text", text: `body: ${await response.text()}` }
             ]
         };
@@ -112,6 +115,7 @@ server.tool(
         return {
             content: [
                 { type: "text", text: `status: ${response.status}` },
+                { type: "text", text: `headers: ${JSON.stringify(Object.fromEntries(response.headers))}` },
                 { type: "text", text: `body: ${await response.text()}` }
             ]
         };
@@ -135,6 +139,7 @@ server.tool(
         return {
             content: [
                 { type: "text", text: `status: ${response.status}` },
+                { type: "text", text: `headers: ${JSON.stringify(Object.fromEntries(response.headers))}` },
                 { type: "text", text: `body: ${await response.text()}` }
             ]
         };
@@ -157,6 +162,7 @@ server.tool(
         return {
             content: [
                 { type: "text", text: `status: ${response.status}` },
+                { type: "text", text: `headers: ${JSON.stringify(Object.fromEntries(response.headers))}` },
                 { type: "text", text: `body: ${await response.text()}` }
             ]
         };
